@@ -10,6 +10,6 @@ Copy a font folder to your assets directory and link it like this:
 
 ## License
 
-Code: MIT
-Fonts: Check the individual folders for a license file
-CSS: Public domain / CC0
+* Code: MIT
+* Fonts: Check the individual folders for a license file
+* CSS: Public domain / CC0
