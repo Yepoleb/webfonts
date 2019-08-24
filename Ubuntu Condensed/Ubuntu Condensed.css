@@ -1,0 +1,15 @@
+/*
+ * Ubuntu Condensed by Dalton Maag - https://design.ubuntu.com/font/
+ * License: Ubuntu-1.0
+ */
+
+@font-face {
+    font-family: 'Ubuntu Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Ubuntu Condensed'),
+         url('woff2/Ubuntu Condensed.woff2') format('woff2'),
+         url('woff/Ubuntu Condensed.woff') format('woff');
+}
+

@@ -1,0 +1,45 @@
+/*
+ * Ubuntu Mono by Dalton Maag - https://design.ubuntu.com/font/
+ * License: Ubuntu-1.0
+ */
+
+@font-face {
+    font-family: 'Ubuntu Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Ubuntu Mono'),
+         url('woff2/Ubuntu Mono.woff2') format('woff2'),
+         url('woff/Ubuntu Mono.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Ubuntu Mono';
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Ubuntu Mono'),
+         url('woff2/Ubuntu Mono Italic.woff2') format('woff2'),
+         url('woff/Ubuntu Mono Italic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Ubuntu Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local('Ubuntu Mono'),
+         url('woff2/Ubuntu Mono Bold.woff2') format('woff2'),
+         url('woff/Ubuntu Mono Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Ubuntu Mono';
+    font-style: italic;
+    font-weight: 700;
+    font-display: swap;
+    src: local('Ubuntu Mono'),
+         url('woff2/Ubuntu Mono Bold Italic.woff2') format('woff2'),
+         url('woff/Ubuntu Mono Bold Italic.woff') format('woff');
+}
+

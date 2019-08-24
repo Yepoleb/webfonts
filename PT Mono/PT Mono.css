@@ -1,0 +1,25 @@
+/*
+ * PT Mono by ParaType - https://company.paratype.com/pt-sans-pt-serif
+ * License: Paratype-1.3
+ */
+
+@font-face {
+    font-family: 'PT Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('PT Mono'),
+         url('woff2/PT Mono.woff2') format('woff2'),
+         url('woff/PT Mono.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'PT Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local('PT Mono'),
+         url('woff2/PT Mono Bold.woff2') format('woff2'),
+         url('woff/PT Mono Bold.woff') format('woff');
+}
+

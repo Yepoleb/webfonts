@@ -1,0 +1,95 @@
+/*
+ * Ubuntu by Dalton Maag - https://design.ubuntu.com/font/
+ * License: Ubuntu-1.0
+ */
+
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 200;
+    font-display: swap;
+    src: local('Ubuntu'),
+         url('woff2/Ubuntu Thin.woff2') format('woff2'),
+         url('woff/Ubuntu Thin.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: local('Ubuntu'),
+         url('woff2/Ubuntu Light.woff2') format('woff2'),
+         url('woff/Ubuntu Light.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: italic;
+    font-weight: 300;
+    font-display: swap;
+    src: local('Ubuntu'),
+         url('woff2/Ubuntu Light Italic.woff2') format('woff2'),
+         url('woff/Ubuntu Light Italic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Ubuntu'),
+         url('woff2/Ubuntu.woff2') format('woff2'),
+         url('woff/Ubuntu.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Ubuntu'),
+         url('woff2/Ubuntu Italic.woff2') format('woff2'),
+         url('woff/Ubuntu Italic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: local('Ubuntu'),
+         url('woff2/Ubuntu Medium.woff2') format('woff2'),
+         url('woff/Ubuntu Medium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: italic;
+    font-weight: 500;
+    font-display: swap;
+    src: local('Ubuntu'),
+         url('woff2/Ubuntu Medium Italic.woff2') format('woff2'),
+         url('woff/Ubuntu Medium Italic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local('Ubuntu'),
+         url('woff2/Ubuntu Bold.woff2') format('woff2'),
+         url('woff/Ubuntu Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: italic;
+    font-weight: 700;
+    font-display: swap;
+    src: local('Ubuntu'),
+         url('woff2/Ubuntu Bold Italic.woff2') format('woff2'),
+         url('woff/Ubuntu Bold Italic.woff') format('woff');
+}
+

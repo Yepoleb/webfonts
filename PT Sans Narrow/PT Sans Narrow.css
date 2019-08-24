@@ -1,0 +1,25 @@
+/*
+ * PT Sans Narrow by ParaType - https://company.paratype.com/pt-sans-pt-serif
+ * License: Paratype-1.2
+ */
+
+@font-face {
+    font-family: 'PT Sans Narrow';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('PT Sans Narrow'),
+         url('woff2/PT Sans Narrow.woff2') format('woff2'),
+         url('woff/PT Sans Narrow.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'PT Sans Narrow';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local('PT Sans Narrow'),
+         url('woff2/PT Sans Narrow Bold.woff2') format('woff2'),
+         url('woff/PT Sans Narrow Bold.woff') format('woff');
+}
+

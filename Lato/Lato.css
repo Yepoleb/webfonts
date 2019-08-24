@@ -1,0 +1,185 @@
+/*
+ * Lato by Łukasz Dziedzic - http://www.latofonts.com/lato-free-fonts/
+ * License: OFL-1.1
+ */
+
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 100;
+    font-display: swap;
+    src: local('Lato'),
+         url('woff2/Lato Hairline.woff2') format('woff2'),
+         url('woff/Lato Hairline.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 100;
+    font-display: swap;
+    src: local('Lato'),
+         url('woff2/Lato Hairline Italic.woff2') format('woff2'),
+         url('woff/Lato Hairline Italic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 200;
+    font-display: swap;
+    src: local('Lato'),
+         url('woff2/Lato Thin.woff2') format('woff2'),
+         url('woff/Lato Thin.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 200;
+    font-display: swap;
+    src: local('Lato'),
+         url('woff2/Lato Thin Italic.woff2') format('woff2'),
+         url('woff/Lato Thin Italic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: local('Lato'),
+         url('woff2/Lato Light.woff2') format('woff2'),
+         url('woff/Lato Light.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 300;
+    font-display: swap;
+    src: local('Lato'),
+         url('woff2/Lato Light Italic.woff2') format('woff2'),
+         url('woff/Lato Light Italic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Lato'),
+         url('woff2/Lato.woff2') format('woff2'),
+         url('woff/Lato.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Lato'),
+         url('woff2/Lato Italic.woff2') format('woff2'),
+         url('woff/Lato Italic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: local('Lato'),
+         url('woff2/Lato Medium.woff2') format('woff2'),
+         url('woff/Lato Medium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 500;
+    font-display: swap;
+    src: local('Lato'),
+         url('woff2/Lato Medium Italic.woff2') format('woff2'),
+         url('woff/Lato Medium Italic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: local('Lato'),
+         url('woff2/Lato Semibold.woff2') format('woff2'),
+         url('woff/Lato Semibold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 600;
+    font-display: swap;
+    src: local('Lato'),
+         url('woff2/Lato Semibold Italic.woff2') format('woff2'),
+         url('woff/Lato Semibold Italic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local('Lato'),
+         url('woff2/Lato Bold.woff2') format('woff2'),
+         url('woff/Lato Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 700;
+    font-display: swap;
+    src: local('Lato'),
+         url('woff2/Lato Bold Italic.woff2') format('woff2'),
+         url('woff/Lato Bold Italic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+    src: local('Lato'),
+         url('woff2/Lato Heavy.woff2') format('woff2'),
+         url('woff/Lato Heavy.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 800;
+    font-display: swap;
+    src: local('Lato'),
+         url('woff2/Lato Heavy Italic.woff2') format('woff2'),
+         url('woff/Lato Heavy Italic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: local('Lato'),
+         url('woff2/Lato Black.woff2') format('woff2'),
+         url('woff/Lato Black.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 900;
+    font-display: swap;
+    src: local('Lato'),
+         url('woff2/Lato Black Italic.woff2') format('woff2'),
+         url('woff/Lato Black Italic.woff') format('woff');
+}
+
