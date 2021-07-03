@@ -3,6 +3,8 @@
 import string
 import configparser
 import pathlib
+import sys
+import fnmatch
 
 HEADER_TEMPLATE = string.Template(
 """/*
@@ -42,7 +44,15 @@ fontmeta = configparser.ConfigParser()
 with open("fontmeta.ini", "r") as configfile:
     fontmeta.read_file(configfile)
 
+if len(sys.argv) > 1:
+    filter_pattern = sys.argv[1]
+else:
+    filter_pattern = None
+
 for fontname in fontmeta.sections():
+    # filter fontname based on pattern argument
+    if (filter_pattern is not None) and (not fnmatch.fnmatch(fontname, filter_pattern)):
+        continue
     print("Generating CSS for", fontname)
     fontpath = pathlib.Path(fontname)
     cssfile = open(fontpath / (fontname + ".css"), "w")
