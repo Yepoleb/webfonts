@@ -64,7 +64,7 @@ for fontname in fontmeta.sections():
     ))
 
     variants = []
-    for fontfile in fontpath.glob("ttf/*.ttf"):
+    for fontfile in fontpath.glob("ttf/*.?tf"):
         filestem = fontfile.stem
         words = filestem.split()
         style = "normal"

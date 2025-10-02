@@ -25,7 +25,7 @@ for fontname in fontmeta.sections():
     ttfpath = fontpath / "ttf"
     woffpath.mkdir(exist_ok=True)
     woff2path.mkdir(exist_ok=True)
-    for fontfile in ttfpath.glob("*.ttf"):
+    for fontfile in ttfpath.glob("*.?tf"):
         wofffile = woffpath / (fontfile.stem + ".woff")
         woff2file = woff2path / (fontfile.stem + ".woff2")
         print("Converting", fontfile.stem, "to woff")
